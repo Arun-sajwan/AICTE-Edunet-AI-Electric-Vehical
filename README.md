@@ -22,6 +22,20 @@ An interactive web application built with **Streamlit** to predict the **State o
 - **Terrain Factor** (0.7 to 1.0) — 1.0 = flat, 0.7 = hilly
 - **Vehicle Weight** (1000 to 3000 kg) — Total vehicle mass
 
+## 🔑 API Keys / Gemini setup
+
+The chatbot uses Google Generative (Gemini) when a valid API key is provided. You can supply the key via:
+
+- Streamlit secrets (recommended): add `GOOGLE_API_KEY` or `GEMINI_API_KEY` in `.streamlit/secrets.toml`  
+- Environment variable: set `GEMINI_API_KEY` or `GOOGLE_API_KEY`  
+- Session input in the app (temporary)
+
+Example `.env` (do NOT commit this file):
+```
+GEMINI_API_KEY=your_key_here
+# or
+GOOGLE_API_KEY=your_key_here
+```
 ## 🚀 Getting Started
 
 ### Prerequisites
