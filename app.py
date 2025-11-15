@@ -120,7 +120,7 @@ def local_chatbot(user_msg):
 
     # Greetings
     if any(g in m for g in ("hello", "hi", "hey")):
-        return "Hello! I can help with battery SOH, range estimates, charging tips, maintenance and EV best practices."
+        return "Hello! I am a bot and I can help with battery SOH, range estimates, charging tips, maintenance and EV best practices."
 
     # SOH / battery health
     if any(k in m for k in ("soh", "state of health", "battery health")):
