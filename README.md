@@ -167,7 +167,7 @@ Models were trained using:
 
 For retraining, see `BatteryHealth.ipynb`
 
-
+## Deployment: Streamlit_cloud- https://ai-electric-vehicle-range-prediction-vf26anm7bwhxuvhocrnkjn.streamlit.app/
 ## 👨‍💻 Author
 
 **Arun Sajwan**  
