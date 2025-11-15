@@ -171,7 +171,7 @@ For retraining, see `BatteryHealth.ipynb`
 ## 👨‍💻 Author
 
 **Arun Sajwan**  
-B.Tech Computer science
+-Guru Ram Dass Institute of Management and Technology
 ⚡ AICTE AI/ML in Electric Vehicles 
 
 ---
