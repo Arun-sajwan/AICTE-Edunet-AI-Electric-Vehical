@@ -208,7 +208,7 @@ def get_response(user_input):
         except Exception as e:
             return f"(Mode)\n\n{local_chatbot(user_input)}"
     else:
-        return f"(API Key Missing → Local Mode)\n\n{local_chatbot(user_input)}"
+        return f"(Mode)\n\n{local_chatbot(user_input)}"
 
 
 
